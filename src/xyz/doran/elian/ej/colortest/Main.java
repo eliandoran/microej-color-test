@@ -22,7 +22,7 @@ public class Main {
 		MicroUI.start();
 
 		Panel mainPanel = new Panel();
-		mainPanel.setWidget(new BasicColorsPage());
+		mainPanel.setWidget(new PermutedBasicColorsPage());
 
 		Desktop desktop = new Desktop();
 		mainPanel.showFullScreen(desktop);

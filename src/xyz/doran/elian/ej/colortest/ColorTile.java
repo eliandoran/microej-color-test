@@ -16,10 +16,37 @@ import ej.widget.StyledWidget;
  *
  */
 public class ColorTile extends StyledWidget {
-	private final int color;
+	private int color;
+
+	public ColorTile() {
+		this(0);
+	}
 
 	public ColorTile(int color) {
 		this.color = color;
+	}
+
+	/**
+	 * Gets the color.
+	 *
+	 * @return the color.
+	 */
+	public int getColor() {
+		return color;
+	}
+
+	/**
+	 * Sets the color.
+	 *
+	 * @param color
+	 *            the color to set.
+	 */
+	public void setColor(int color) {
+		if (color != this.color) {
+			this.color = color;
+			repaint();
+			invalidate();
+		}
 	}
 
 	@Override
