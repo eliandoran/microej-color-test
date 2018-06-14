@@ -27,6 +27,7 @@ public class Main {
 		Desktop desktop = new Desktop();
 		mainPanel.showFullScreen(desktop);
 
+		StylesheetBuilder.initialize();
 		desktop.show();
 	}
 
