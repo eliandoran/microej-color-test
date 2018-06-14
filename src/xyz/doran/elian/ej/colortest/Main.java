@@ -9,6 +9,7 @@ package xyz.doran.elian.ej.colortest;
 import ej.microui.MicroUI;
 import ej.mwt.Desktop;
 import ej.mwt.Panel;
+import xyz.doran.elian.ej.colortest.pages.PermutedBasicColorsPage;
 
 /**
  *
