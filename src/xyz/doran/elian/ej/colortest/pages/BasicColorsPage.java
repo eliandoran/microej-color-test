@@ -4,11 +4,12 @@
  * Copyright 2018 IS2T. All rights reserved.
  * IS2T PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
-package xyz.doran.elian.ej.colortest;
+package xyz.doran.elian.ej.colortest.pages;
 
 import ej.microui.display.Colors;
 import ej.widget.container.Grid;
 import ej.widget.navigation.page.Page;
+import xyz.doran.elian.ej.colortest.ColorTile;
 
 /**
  *
